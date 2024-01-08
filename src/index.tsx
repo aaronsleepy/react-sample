@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello from './components/Hello';
 import Counter from './components/HookUseStateSample';
+import Counter2 from './components/HookUseReducerSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +15,8 @@ root.render(
     {/* <App /> */}
     <Hello />
     <Counter initialValue={1} />
+    <hr />
+    <Counter2 initialValue={1} />
   </React.StrictMode>
 );
 
