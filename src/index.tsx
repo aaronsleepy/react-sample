@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Hello from './components/Hello';
 import Counter from './components/HookUseStateSample';
 import Counter2 from './components/HookUseReducerSample';
+import Parent from './components/ContainerSample';
+import MemoParent from './components/memoization/MemoSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +19,8 @@ root.render(
     <Counter initialValue={1} />
     <hr />
     <Counter2 initialValue={1} />
+    <hr />
+    <MemoParent />
   </React.StrictMode>
 );
 
