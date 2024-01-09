@@ -11,6 +11,7 @@ import MemoParent from './components/memoization/MemoSample';
 import UseCallbackParent from './components/memoization/HookUseCallbackSample';
 import UseMemoSample from './components/memoization/HookUseMemoSample';
 import Clock from './components/effect/HookUseEffectSample';
+import UseContextPage from './components/HookUseContextSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -29,6 +30,8 @@ root.render(
     <UseMemoSample />
     <hr />
     <Clock />
+    <hr />
+    <UseContextPage />
   </React.StrictMode>
 );
 
