@@ -1,5 +1,5 @@
 const Hello = () => {
-
+    console.log()
     const onClick = () => {
         alert('hello')
     }

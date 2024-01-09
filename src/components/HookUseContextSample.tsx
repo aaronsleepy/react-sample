@@ -11,14 +11,14 @@ const Title = () => {
 
     const value = useContext(TitleContext)
 
-    return <h1>{value}</h1>
+    return <h2>{value}</h2>
 }
 
 const Header = () => {
     return (
-        <h1>
+        <div>
             <Title />
-        </h1>
+        </div>
     )
 }
 
