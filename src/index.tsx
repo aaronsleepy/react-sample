@@ -12,6 +12,7 @@ import UseCallbackParent from './components/memoization/HookUseCallbackSample';
 import UseMemoSample from './components/memoization/HookUseMemoSample';
 import Clock from './components/effect/HookUseEffectSample';
 import UseContextPage from './components/HookUseContextSample';
+import ImageUploder from './components/HookUseRefSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -32,6 +33,8 @@ root.render(
     <Clock />
     <hr />
     <UseContextPage />
+    <hr />
+    <ImageUploder />
   </React.StrictMode>
 );
 
