@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hello from './components/Hello';
-import Counter from './components/HookUseStateSample';
-import Counter2 from './components/HookUseReducerSample';
-import Parent from './components/ContainerSample';
-import MemoParent from './components/memoization/MemoSample';
-import UseCallbackParent from './components/memoization/HookUseCallbackSample';
-import UseMemoSample from './components/memoization/HookUseMemoSample';
-import Clock from './components/effect/HookUseEffectSample';
-import UseContextPage from './components/HookUseContextSample';
-import ImageUploder from './components/HookUseRefSample';
+import Hello from './components/basic/Hello';
+import UseContextPage from './components/hook/HookUseContextSample';
+import Counter2 from './components/hook/HookUseReducerSample';
+import ImageUploder from './components/hook/HookUseRefSample';
+import Counter from './components/hook/HookUseStateSample';
+import Clock from './components/hook/effect/HookUseEffectSample';
+import UseCallbackParent from './components/hook/memoization/HookUseCallbackSample';
+import UseMemoSample from './components/hook/memoization/HookUseMemoSample';
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
