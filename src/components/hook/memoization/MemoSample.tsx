@@ -3,8 +3,10 @@ import { memo, useState } from "react"
 /**
  * Memoization Hook
  * - 부모 컴포넌트가 다시 렌더링 -> 자식 컴포넌트도 다시 렌더링 (전파됨)
- *   - memo 컴포넌트 사용: props나 context값이 바뀌지 않은 경우 자식 컴포넌트는 다시 렌더링되지 않음
- * - 
+ *    - memo 컴포넌트 사용: props나 context값이 바뀌지 않은 경우, memo 컴포넌트는 다시 렌더링되지 않음
+ *  - memo 컴포넌트 포함 자식 컴포넌트에 전달되는 함수 또는 값이 변경되는 경우 -> 자식 컴포넌트도 다시 렌더링 (전파됨)
+ *    - useCallback: 자식에 전달하는 콜백함수의 의존 배열이 변경되지 않은 경우 -> memo 컴포넌트는 다시 렌더링되지 않음
+ *    - useMemo: 자식에 전달하는 props의 의존 배열이 변경되지 않은 경우 -> memo 컴포넌트는 다시 렌더링되지 않음
  */
 
 type FizzProps = {
