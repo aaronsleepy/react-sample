@@ -1,3 +1,8 @@
+/**
+ * Memoization: useCallback
+ * - 함수를 메모이제이션
+ */
+
 import { memo, useCallback, useState } from "react"
 
 type ButtonProps = {
