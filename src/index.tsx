@@ -11,6 +11,7 @@ import Counter from './components/hook/HookUseStateSample';
 import Clock from './components/hook/effect/HookUseEffectSample';
 import UseCallbackParent from './components/hook/memoization/HookUseCallbackSample';
 import UseMemoSample from './components/hook/memoization/HookUseMemoSample';
+import UseFormSample from './components/hook/form/HookUseFormSample';
 
 
 
@@ -35,6 +36,8 @@ root.render(
     <UseContextPage />
     <hr />
     <ImageUploder />
+    <hr />
+    <UseFormSample />
   </React.StrictMode>
 );
 
