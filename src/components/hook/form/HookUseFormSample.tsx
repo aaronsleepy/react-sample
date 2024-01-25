@@ -3,6 +3,10 @@ import { SubmitHandler, useForm } from "react-hook-form"
 /**
  * useForm 예제
  * - 설치: npm install react-hook-form
+ * - useForm 구성
+ *   - register 함수: form 요소에 Hook을 등록하여 상태를 관리
+ *   - handleSubmit 함수: form의 onSubmit 이벤트 핸들러에 등록
+ *   - errors 객체: form 요소에 validation 에러가 발생했는지를 감지할 때 사용
  */
 
 type MyFormData = {
